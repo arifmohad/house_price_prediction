@@ -6,7 +6,7 @@ from sklearn.linear_model import LinearRegression
 import pickle
 
 
-df = pd.read_csv(r'c:/house_rent/House-price-prediction-using-flask-main/House-price-prediction-using-flask-main/house_data.csv')
+df = pd.read_csv(r'house_data.csv')
 
 
 columns = ['bedrooms', 'bathrooms', 'sqft_living', 'zipcode', 'price']
