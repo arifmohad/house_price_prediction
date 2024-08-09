@@ -94,7 +94,14 @@ p {
 
                 <input type="submit" value="Predict" class="submit">
             </form>
-            <p>House Price is: {{data}}</p>
+            <!-- Display the prediction result if available -->
+            {% if data %}
+            <h2>Predicted Price: ${{ data }}</h2>
+            <!-- Display the location name if available -->
+            {% if location_name %}
+                <p>Location: {{ location_name }}</p>
+            {% endif %}
+        {% endif %}
         </div>
     </div>
 </body>
