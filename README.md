@@ -10,7 +10,11 @@ To run the web app on your local computer, install the required libraries. These
 ```
 pip install -r requirement.txt
 ```
+# Zip Code Location API
 
+http://api.zippopotam.us/us/
+
+The Zippopotam API provides information about the location associated with a given ZIP code in the United States. It returns details such as the city and state for the ZIP code.
 
 # Getting Started
 
@@ -23,3 +27,11 @@ python app.py
 Running on http://127.0.0.1:5000
 
 
+# Data Set Constraints
+
+- **Maximum Bedrooms**: 5
+- **Maximum Bathrooms**: 4
+- **Maximum Square Feet**: 4500
+- **Zipcodes**: Must be from Washington, USA
+
+**Note:** The dataset used in this application is minimal, meaning it only includes a limited range of values. For practical purposes, the application is configured to handle properties with up to 5 bedrooms, 4 bathrooms, and 4500 square feet. Additionally, ZIP codes must be from Washington, USA, to ensure the data remains relevant to the application's intended use case.
