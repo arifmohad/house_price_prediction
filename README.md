@@ -12,7 +12,7 @@ pip install -r requirement.txt
 ```
 # Zip Code Location API
 
-http://api.zippopotam.us/us/
+http://api.zippopotam.us
 
 The Zippopotam API provides information about the location associated with a given ZIP code in the United States. It returns details such as the city and state for the ZIP code.
 
